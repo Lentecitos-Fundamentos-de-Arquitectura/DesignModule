@@ -16,20 +16,20 @@ public class MarcoAnteojos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
 
-    @Column(name = "nombre", length = 255)
+    @Column(name = "nombre", length = 20)
     private String nombre;
 
     @Column(name = "ruta_archivo_chiquito", length = 255)
-    private String ruta_archivo_chiquito;
+    private String rutaArchivoChiquito;
 
     @Column(name = "ruta_archivo_mediano", length = 255)
-    private String ruta_archivo_mediano;
+    private String rutaArchivoMediano;
 
     @Column(name = "ruta_archivo_grande", length = 255)
-    private String ruta_archivo_grande;
+    private String rutaArchivoGrande;
 
     @Column(name = "aumento_precio")
-    private BigDecimal aumento_precio;
+    private BigDecimal aumentoPrecio;
 
     @Column(name = "disponible")
     private Boolean disponible;
