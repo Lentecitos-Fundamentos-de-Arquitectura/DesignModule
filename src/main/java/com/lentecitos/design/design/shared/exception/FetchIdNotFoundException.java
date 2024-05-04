@@ -8,6 +8,6 @@ public class FetchIdNotFoundException extends RuntimeException{
 public FetchIdNotFoundException(String resourceName, Integer resourceId) {
         super(String.format("%s with id %d not found.", resourceName, resourceId));
         StackTraceElement[] mio = {};
-        this.setStackTrace(mio);
+        this.setStackTrace(mio)
     }
 }
