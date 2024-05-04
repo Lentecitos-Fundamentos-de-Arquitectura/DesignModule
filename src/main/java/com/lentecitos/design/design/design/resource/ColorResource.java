@@ -12,5 +12,5 @@ public class ColorResource {
     private String nombre;
     private short r;
     private short g;
-    private short b;
+    private short b
 }
