@@ -24,5 +24,5 @@ public class Color {
     private short g;
 
     @Column(name = "b")
-    private short b;
+    private short b
 }
