@@ -50,7 +50,7 @@ public class ColorController {
 
     @GetMapping
     public ResponseEntity<List<Color>>  fetchAll(){
-        return ResponseEntity.ok(colorService.findAll());
+        return ResponseEntity.ok(colorService.findAll())
     }
 
 }
