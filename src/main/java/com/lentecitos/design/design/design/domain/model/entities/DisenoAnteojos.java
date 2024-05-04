@@ -52,7 +52,6 @@ public class DisenoAnteojos {
     @Column(name = "created_at")
     private Date createdAt;
 
-    @Column(name = "updated_at")
-    private Date updatedAt;
+
 
 }
