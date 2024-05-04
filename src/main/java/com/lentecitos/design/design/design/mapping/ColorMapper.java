@@ -17,6 +17,6 @@ public class ColorMapper implements Serializable {
     }
 
     public ColorResource toResource(Color entity){
-        return modelMapper.map(entity, ColorResource.class);
+        return modelMapper.map(entity, ColorResource.class)
     }
 }
