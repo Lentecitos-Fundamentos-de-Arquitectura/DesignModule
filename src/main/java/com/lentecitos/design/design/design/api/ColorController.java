@@ -23,7 +23,7 @@ public class ColorController {
     public ResponseEntity<ColorResource> save(@RequestBody Color color){
         return new ResponseEntity<>(
                 colorMapper.toResource(colorService.save(color)),
-                org.springframework.http.HttpStatus.CREATED;
+                org.springframework.http.HttpStatus.CREATED
         );
     }
 
